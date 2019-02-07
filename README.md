@@ -29,7 +29,7 @@ The app should be responsive so that it can be viewed on desktop and mobile nice
 The [GitHub API](https://developer.github.com/v3/search/#search-repositories) looks as follows:
 https://api.github.com/search/repositories?q={query}&page={page_number}&per_page={results_per_page}
 
-Substuting `query`, `page_number` and `results_per_page` with appropriate values.
+Substituting `query`, `page_number` and `results_per_page` with appropriate values.
 
 The fields in the JSON response you will need to use are: 
 `name`, `url`, `description`, `language`, `stargazers_count`, `owner.avatar_url`, `owner.login`, `owner.url`
